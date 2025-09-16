@@ -1,5 +1,5 @@
 class Solution:
-    def sumOfEncryptedInt(self, nums: List[int]) -> int:
+    def sumOfEncryptedInt(self, nums) -> int:
         for i in range(len(nums)):
             n = len(str(nums[i]))
             if n<2:
