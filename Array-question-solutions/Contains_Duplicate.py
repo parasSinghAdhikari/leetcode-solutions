@@ -11,7 +11,6 @@ class Solution:
 # appraoch 2 timecomplexity O(n)
 # space complexity O(1)
 
-temp ={}
 class Solution:
     def containsDuplicate(self, nums) -> bool:
         temp ={}
