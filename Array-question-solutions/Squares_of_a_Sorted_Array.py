@@ -5,7 +5,7 @@ class Solution:
         for i in range(len(nums)):
             if nums[i]>=0:
                 break
-        ans = []
+        ans = []~
         j = i-1
         while j>=0 and i<len(nums):
             if nums[j]*nums[j] < nums[i]*nums[i]:
