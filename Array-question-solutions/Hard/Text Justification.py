@@ -1,6 +1,6 @@
 import math
 class Solution:
-    def fullJustify(self, words: List[str], maxWidth: int) -> List[str]:
+    def fullJustify(self, words, maxWidth: int) :
         ans =[]
         j,sums= 0,0
         for i in range(len(words)):
